@@ -14,7 +14,7 @@ img {
 }
 
 footer {
-    grid-row: 16 / span 1;
+    grid-row: 18 / span 1;
     padding-top: 200px;
 }
 
@@ -37,6 +37,14 @@ h1 {
 }
 
 h2 {
+    font-size: 25px;
+}
+
+#me {
+    font-size: 60px;
+}
+
+.title {
     font-size: 25px;
 }
 
@@ -90,52 +98,82 @@ a.skip:focus {
     grid-column: 2 / span 1;
 }
 
-#web_text {
+nav {
+    grid-row: 2 / span 1;
+    grid-column: 2/ span 1;
+}
+
+nav li a {
+    text-decoration: none;
+    color: blue
+}
+
+nav li {
+    padding-bottom: 10px;
+}
+
+nav li a:hover {
+    color: lightblue;
+}
+
+#projects {
     grid-row: 3 / span 1;
 }
 
-#web_img {
+#web_text {
     grid-row: 4 / span 1;
 }
 
-#ux_text {
+#web_img {
     grid-row: 5 / span 1;
 }
 
-#ux_img {
+#ux_text {
     grid-row: 6 / span 1;
 }
 
-#research_img {
+#ux_img {
     grid-row: 7 / span 1;
 }
 
-#research_text {
+#research_img {
     grid-row: 8 / span 1;
 }
 
-#debug_img {
+#research_text {
     grid-row: 9 / span 1;
 }
 
-#debug_text {
+#debug_img {
     grid-row: 10 / span 1;
 }
 
-#learn_img {
+#debug_text {
     grid-row: 11 / span 1;
 }
 
-#learn_text {
+#learn_img {
     grid-row: 12 / span 1;
 }
 
-#people_img {
+#learn_text {
     grid-row: 13 / span 1;
 }
 
-#people_text {
+#people_img {
     grid-row: 14 / span 1;
+}
+
+#people_text {
+    grid-row: 15 / span 1;
+}
+
+#designs {
+    grid-row: 16 / span 1;
+}
+
+#about {
+    grid-row: 17 / span 1;
 }
 
 #web_img,
@@ -184,6 +222,7 @@ a.skip:focus {
 #intro {
     padding-top: 100px;
     padding-bottom: 100px;
+    grid-row: 1 / span 1;
 }
 
 .skills {
