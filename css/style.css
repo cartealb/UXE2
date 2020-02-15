@@ -51,11 +51,21 @@ h2 {
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .10em;
+    -webkit-animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
 
 
 /* The typing effect */
+
+@-webkit-keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
 
 @keyframes typing {
     from {
@@ -69,6 +79,16 @@ h2 {
 
 /* The typewriter cursor effect */
 
+@-webkit-keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: blue;
+    }
+}
+
 @keyframes blink-caret {
     from,
     to {
@@ -80,6 +100,7 @@ h2 {
 }
 
 #title_me {
+    display: -webkit-box;
     display: flex;
     padding-top: 50px;
 }
@@ -388,12 +409,14 @@ nav li a:hover {
         margin: 0 auto;
         /* Gives that scrolling effect as the typing happens */
         letter-spacing: .10em;
+        -webkit-animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
         animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
     }
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
     #me {
+        -webkit-animation: none;
         animation: none;
     }
 }
