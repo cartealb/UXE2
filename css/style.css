@@ -284,11 +284,10 @@ nav li a:hover {
     border-bottom: blue solid;
 }
 
-
-}
 #web_text {
     padding-top: 20px;
 }
+
 #intro,
 #projects,
 #about,
@@ -301,6 +300,7 @@ nav li a:hover {
 #people_text {
     text-align: center;
 }
+
 #web_text p,
 #ux_text p,
 #research_text p,
@@ -309,17 +309,21 @@ nav li a:hover {
 #people_text p {
     text-align: left;
 }
+
 #spotistats {
     text-align: center !important;
 }
+
 #intro {
     padding-top: 100px;
     padding-bottom: 100px;
     grid-row: 1 / span 1;
 }
+
 .skills {
     padding-top: 50px;
 }
+
 .gallery {
     min-height: 600px;
     display: -webkit-box;
@@ -333,23 +337,28 @@ nav li a:hover {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .gallery>img {
     border: 10px;
     margin: 10px;
     width: 300px;
 }
+
 #image3,
 #image4,
 #image6 {
     background-color: rgba(153, 153, 153, 0.568);
 }
+
 #mygal {
     grid-row: 4/span 1;
     grid-column: 1/ span 4;
 }
+
 #mygal {
     padding-top: 50px;
 }
+
 #web_text,
 #ux_text,
 #research_text,
@@ -359,11 +368,11 @@ nav li a:hover {
     grid-column: 2 / span 1;
     padding-top: 65px;
 }
+
 @media screen and (min-width:1024px) {
     .grid-container {
         grid-template-columns: 1fr 2fr 2fr 1fr;
     }
-    
     #intro,
     #projects,
     #web_img,
@@ -382,7 +391,6 @@ nav li a:hover {
     #designs {
         grid-column: 2 / span 2;
     }
-    
     #web_img,
     #ux_img,
     #research_img,
@@ -390,7 +398,6 @@ nav li a:hover {
     #people_img {
         grid-column: 2 / span 1;
     }
-    
     #web_text,
     #ux_text,
     #research_text,
@@ -401,7 +408,6 @@ nav li a:hover {
         text-align: left;
         padding-top: 100px;
     }
-    
     #web_img,
     #ux_img,
     #research_img,
@@ -412,54 +418,44 @@ nav li a:hover {
         padding-top: 130px;
         grid-column: 2 / span 1;
     }
-    
     #web_img,
     #web_text {
         grid-row: 4 / span 1;
     }
-    
     #ux_img,
     #ux_text {
         grid-row: 5 / span 1;
     }
-    
     #research_text,
     #research_img {
         grid-row: 6 / span 1;
     }
-    
     #debug_text,
     #debug_img {
         grid-row: 7 / span 1;
     }
-    
     #learn_text,
     #learn_img {
         grid-row: 8 / span 1;
     }
-    
     #people_text,
     #people_img {
         grid-row: 9 / span 1;
     }
-    
     img {
         width: 215px;
     }
-    
     li {
         list-style-position: inside;
         text-indent: -1.4em;
         padding-left: 1em;
     }
-    
     #projects,
     #designs,
     #about {
         border: none;
         border-bottom: blue solid;
     }
-    
     #me {
         font-size: 60px;
         overflow: hidden;
@@ -471,26 +467,23 @@ nav li a:hover {
         margin: 0 auto;
         /* Gives that scrolling effect as the typing happens */
         letter-spacing: .10em;
-        -webkit-animation: typing_des 2s steps(20, end), blink-caret .75s step-end infinite;
+        -webkit-animation: typing_des 2s steps(40, end), blink-caret .75s step-end infinite;
         animation: typing_des 2s steps(40, end), blink-caret .75s step-end infinite;
     }
-    
     .skills {
         text-align: left;
     }
-    
     #spotistats {
         text-align: left !important;
     }
-    
     #web_text {
         padding-top: 20px;
     }
-    
     .gallery>img {
         width: 600px;
     }
 }
+
 @media screen and (prefers-reduced-motion: reduce) {
     #me {
         -webkit-animation: none;
