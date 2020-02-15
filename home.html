@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>AJ Carter</title>
 </head>
@@ -44,7 +45,7 @@
             </div>
 
 
-            <div id='web_text'>
+            <div data-aos="fade-in" id='web_text'>
 
                 <h2>Web Development Experience</h2>
 
@@ -66,7 +67,7 @@
             </div>
 
 
-            <div id='ux_text'>
+            <div data-aos="fade-in" id='ux_text'>
                 <h2>UX Experience </h2>
                 <p>I'm passionate about creating products with the user at the center</p>
 
@@ -91,7 +92,7 @@
             </div>
 
 
-            <div id='research_text'>
+            <div data-aos="fade-in" id='research_text'>
                 <h2>Research Skills</h2>
                 <p>I'm interested in learning about how technology and social media can be leveraged to better support individuals through major life events.</p>
                 <h3 class='skills'>Skills</h3>
@@ -135,6 +136,9 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
