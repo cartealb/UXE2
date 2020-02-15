@@ -492,11 +492,10 @@ nav li a:hover {
         width: 600px;
     }
 }
-
-}
 @media screen and (prefers-reduced-motion: reduce) {
     #me {
         -webkit-animation: none;
         animation: none;
+        border-right: none;
     }
 }
