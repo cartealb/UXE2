@@ -367,6 +367,9 @@ nav li a:hover {
     grid-row: 4/span 1;
     grid-column: 1/ span 4;
 }
+#mygal {
+    padding-top: 50px;
+}
 @media screen and (min-width:1024px) {
     .grid-container {
         grid-template-columns: 1fr 2fr 2fr 1fr;
