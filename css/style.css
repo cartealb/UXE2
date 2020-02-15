@@ -286,16 +286,6 @@ nav li a:hover {
     padding-top: 40px;
 }
 
-#web_text,
-#ux_text,
-#research_text,
-#debug_text,
-#learn_text,
-#people_text {
-    grid-column: 2 / span 1;
-    padding-top: 100px;
-}
-
 #projects,
 #designs,
 #about {
@@ -410,6 +400,7 @@ nav li a:hover {
     #people_text {
         grid-column: 3 / span 1;
         text-align: left;
+        padding-top: 100px;
     }
     
     #web_img,
