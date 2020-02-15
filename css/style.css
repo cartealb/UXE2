@@ -256,7 +256,7 @@ nav li a:hover {
 #learn_text,
 #people_text {
     grid-column: 2 / span 1;
-    padding-top: 100px;
+    padding-top: 40px;
 }
 
 #web_text,
@@ -302,6 +302,10 @@ nav li a:hover {
     text-align: left;
 }
 
+#spotistats {
+    text-align: center !important;
+}
+
 #intro {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -315,7 +319,6 @@ nav li a:hover {
 @media screen and (min-width:1024px) {
     .grid-container {
         grid-template-columns: 1fr 2fr 2fr 1fr;
-        row-gap: 50px;
     }
     #intro,
     #projects,
@@ -349,6 +352,7 @@ nav li a:hover {
     #learn_text,
     #people_text {
         grid-column: 3 / span 1;
+        text-align: left;
     }
     #web_img,
     #ux_img,
@@ -411,6 +415,9 @@ nav li a:hover {
         letter-spacing: .10em;
         -webkit-animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
         animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+    }
+    .skills {
+        text-align: left;
     }
 }
 
