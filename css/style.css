@@ -41,7 +41,47 @@ h2 {
 }
 
 #me {
-    font-size: 60px;
+    font-size: 28px;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em;
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent
+    }
+    50% {
+        border-color: blue;
+    }
+}
+
+#title_me {
+    display: flex;
+    padding-top: 50px;
 }
 
 .title {
@@ -136,35 +176,35 @@ nav li a:hover {
     grid-row: 7 / span 1;
 }
 
-#research_img {
+#research_text {
     grid-row: 8 / span 1;
 }
 
-#research_text {
+#research_img {
     grid-row: 9 / span 1;
 }
 
-#debug_img {
+#debug_text {
     grid-row: 10 / span 1;
 }
 
-#debug_text {
+#debug_img {
     grid-row: 11 / span 1;
 }
 
-#learn_img {
+#learn_text {
     grid-row: 12 / span 1;
 }
 
-#learn_text {
+#learn_img {
     grid-row: 13 / span 1;
 }
 
-#people_img {
+#people_text {
     grid-row: 14 / span 1;
 }
 
-#people_text {
+#people_img {
     grid-row: 15 / span 1;
 }
 
@@ -184,6 +224,8 @@ nav li a:hover {
 #people_img {
     grid-column: 2 / span 1;
     row-gap: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #web_text,
@@ -194,6 +236,27 @@ nav li a:hover {
 #people_text {
     grid-column: 2 / span 1;
     padding-top: 100px;
+}
+
+#web_text,
+#ux_text,
+#research_text,
+#debug_text,
+#learn_text,
+#people_text {
+    grid-column: 2 / span 1;
+    padding-top: 100px;
+}
+
+#projects,
+#designs,
+#about {
+    grid-column: 1 / span 3;
+    padding: 20px 25px;
+}
+
+#web_text {
+    padding-top: 20px;
 }
 
 #intro,
@@ -216,7 +279,6 @@ nav li a:hover {
 #learn_text p,
 #people_text p {
     text-align: left;
-    margin-left: 5px;
 }
 
 #intro {
@@ -232,7 +294,7 @@ nav li a:hover {
 @media screen and (min-width:1024px) {
     .grid-container {
         grid-template-columns: 1fr 2fr 2fr 1fr;
-        row-gap: 100px;
+        row-gap: 50px;
     }
     #intro,
     #projects,
@@ -268,37 +330,70 @@ nav li a:hover {
         grid-column: 3 / span 1;
     }
     #web_img,
-    #web_text {
-        grid-row: 3 / span 1;
-    }
-    #ux_img,
-    #ux_text {
-        grid-row: 4 / span 1;
-    }
-    #research_text,
-    #research_img {
-        grid-row: 5 / span 1;
-    }
-    #debug_text,
-    #debug_img {
-        grid-row: 6 / span 1;
-    }
-    #learn_text,
-    #learn_img {
-        grid-row: 7 / span 1;
-    }
-    #people_text,
-    #people_img {
-        grid-row: 8 / span 1;
-    }
-    #web_img,
     #ux_img,
     #research_img,
     #debug_img,
     #learn_img,
     #people_img {
         padding-top: 100px;
+        padding-top: 130px;
+        grid-column: 2 / span 1;
+    }
+    #web_img,
+    #web_text {
+        grid-row: 4 / span 1;
+    }
+    #ux_img,
+    #ux_text {
+        grid-row: 5 / span 1;
+    }
+    #research_text,
+    #research_img {
+        grid-row: 6 / span 1;
+    }
+    #debug_text,
+    #debug_img {
+        grid-row: 7 / span 1;
+    }
+    #learn_text,
+    #learn_img {
+        grid-row: 8 / span 1;
+    }
+    #people_text,
+    #people_img {
+        grid-row: 9 / span 1;
+    }
+    img {
+        width: 215px;
+    }
+    li {
+        list-style-position: inside;
+        text-indent: -1.4em;
+        padding-left: 1em;
+    }
+    #projects,
+    #designs,
+    #about {
+        border: none;
+        border-bottom: blue solid;
+    }
+    #me {
+        font-size: 60px;
+        overflow: hidden;
+        /* Ensures the content is not revealed until the animation */
+        border-right: .15em solid orange;
+        /* The typwriter cursor */
+        white-space: nowrap;
+        /* Keeps the content on a single line */
+        margin: 0 auto;
+        /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .10em;
+        animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
     }
 }
 
-@media screen and (prefers-reduced-motion: reduce) {}
+@media screen and (prefers-reduced-motion: reduce) {
+    #me {
+        animation: none;
+    }
+}
