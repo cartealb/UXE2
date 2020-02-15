@@ -276,16 +276,6 @@ nav li a:hover {
     margin-right: auto;
 }
 
-#web_text,
-#ux_text,
-#research_text,
-#debug_text,
-#learn_text,
-#people_text {
-    grid-column: 2 / span 1;
-    padding-top: 40px;
-}
-
 #projects,
 #designs,
 #about {
@@ -359,6 +349,15 @@ nav li a:hover {
 }
 #mygal {
     padding-top: 50px;
+}
+#web_text,
+#ux_text,
+#research_text,
+#debug_text,
+#learn_text,
+#people_text {
+    grid-column: 2 / span 1;
+    padding-top: 65px;
 }
 @media screen and (min-width:1024px) {
     .grid-container {
