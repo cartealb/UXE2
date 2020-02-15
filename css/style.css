@@ -13,13 +13,18 @@ img {
     width: 200px;
 }
 
+div * {
+    padding-top: 10px;
+}
+
 footer {
     grid-row: 18 / span 1;
     padding-top: 200px;
-}
-
-div * {
-    padding-top: 10px;
+    grid-column: 1 / span 4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: small;
 }
 
 li {
@@ -316,6 +321,37 @@ nav li a:hover {
     padding-top: 50px;
 }
 
+.gallery {
+    min-height: 600px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery>img {
+    border: 10px;
+    margin: 10px;
+    width: 600px;
+}
+
+#image3,
+#image4,
+#image6 {
+    background-color: rgba(153, 153, 153, 0.568);
+}
+
+#mygal {
+    grid-row: 4/span 1;
+    grid-column: 1/ span 4;
+}
+
 @media screen and (min-width:1024px) {
     .grid-container {
         grid-template-columns: 1fr 2fr 2fr 1fr;
@@ -418,6 +454,9 @@ nav li a:hover {
     }
     .skills {
         text-align: left;
+    }
+    #spotistats {
+        text-align: left !important;
     }
 }
 
