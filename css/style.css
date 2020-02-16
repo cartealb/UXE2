@@ -32,7 +32,7 @@ img {
     outline: none;
     border: none;
     z-index: 99;
-    background-color: #4285F5;
+    background-color: rgba(238, 238, 238, 3.91);
     color: white;
     cursor: pointer;
     border-radius: 8%;
@@ -40,7 +40,7 @@ img {
 }
 
 #top_button:hover {
-    background-color: rgba(238, 238, 238, 3.91);
+    background-color: #4285F5;
 }
 
 div * {
@@ -566,6 +566,10 @@ nav li a:hover {
         font-size: 43px;
         right: 54px;
         bottom: 20px;
+        background-color: #4285F5;
+    }
+    #top_button:hover {
+        background-color: rgba(238, 238, 238, 3.91);
     }
 }
 
