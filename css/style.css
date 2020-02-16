@@ -214,6 +214,7 @@ nav li a {
 
 nav li {
     padding-bottom: 10px;
+    text-align: center;
 }
 
 nav li a:hover {
@@ -518,6 +519,9 @@ nav li a:hover {
     }
     footer {
         grid-row: 40 / span 1;
+    }
+    nav {
+        grid-column: 2/ span 2;
     }
 }
 
