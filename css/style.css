@@ -302,6 +302,7 @@ nav li a:hover {
     grid-column: 1 / span 3;
     padding: 20px 25px;
     border-bottom: blue solid;
+    padding-top: 200px;
 }
 
 #web_text {
