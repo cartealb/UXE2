@@ -39,10 +39,6 @@ img {
     font-size: 37px;
 }
 
-#top_button:hover {
-    background-color: rgba(238, 238, 238, 3.91);
-}
-
 div * {
     padding-top: 10px;
 }
@@ -566,6 +562,9 @@ nav li a:hover {
         font-size: 43px;
         right: 54px;
         bottom: 20px;
+    }
+    #top_button:hover {
+        background-color: rgba(238, 238, 238, 3.91);
     }
 }
 
