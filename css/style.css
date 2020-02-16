@@ -518,7 +518,7 @@ nav li a:hover {
         border-bottom: #4285F5 solid;
     }
     #projects {
-        padding-top: 320px;
+        padding-top: 275px;
     }
     #me {
         font-size: 60px;
@@ -567,6 +567,12 @@ nav li a:hover {
     }
     #top_button:hover {
         background-color: rgba(238, 238, 238, 3.91);
+    }
+}
+
+@media screen and (min-width:1025px) {
+    #projects {
+        padding-top: 400px;
     }
 }
 
