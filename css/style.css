@@ -80,7 +80,22 @@ h2 {
     width: 250px;
 }
 
+#enth_debug,
+#web_dev_h2 {
+    color: #4285F5
+}
 
+#quick_learner,
+#ux_h2 {
+    color: #32A452;
+}
+
+#people_person,
+#research_h2 {
+    color: #EA4435
+}
+
+#
 /* The typing effect */
 
 @-webkit-keyframes typing {
