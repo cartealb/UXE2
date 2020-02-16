@@ -81,7 +81,8 @@ h2 {
 }
 
 #enth_debug,
-#web_dev_h2 {
+#web_dev_h2,
+#aj_h1 {
     color: #4285F5
 }
 
@@ -143,7 +144,7 @@ h2 {
         border-color: transparent
     }
     50% {
-        border-color: blue;
+        border-color: #4285F5;
     }
 }
 
@@ -153,7 +154,7 @@ h2 {
         border-color: transparent
     }
     50% {
-        border-color: blue;
+        border-color: #4285F5
     }
 }
 
@@ -224,7 +225,8 @@ nav {
 
 nav li a {
     text-decoration: none;
-    color: blue
+    color: #4285F5;
+    color: #32A452;
 }
 
 nav li {
@@ -233,7 +235,7 @@ nav li {
 }
 
 nav li a:hover {
-    color: lightblue;
+    color: #4285F5
 }
 
 #projects {
@@ -317,7 +319,7 @@ nav li a:hover {
 #about {
     grid-column: 1 / span 3;
     padding: 20px 25px;
-    border-bottom: blue solid;
+    border-bottom: #4285F5 solid;
     padding-top: 200px;
 }
 
@@ -497,7 +499,7 @@ nav li a:hover {
     #designs,
     #about {
         border: none;
-        border-bottom: blue solid;
+        border-bottom: #4285F5 solid;
     }
     #projects {
         padding-top: 275px;
