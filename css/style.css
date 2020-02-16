@@ -32,7 +32,7 @@ img {
     outline: none;
     border: none;
     z-index: 99;
-    background-color: rgba(238, 238, 238, 0.91);
+    background-color: #4285F5;
     color: white;
     cursor: pointer;
     border-radius: 8%;
@@ -40,7 +40,7 @@ img {
 }
 
 #top_button:hover {
-    background-color: #4285F5;
+    background-color: rgba(238, 238, 238, 3.91);
 }
 
 div * {
