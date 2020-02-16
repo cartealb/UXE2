@@ -27,8 +27,8 @@ img {
 #top_button {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 40px;
+    right: 40px;
     outline: none;
     border: none;
     z-index: 99;
