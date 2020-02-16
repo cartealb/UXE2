@@ -479,6 +479,9 @@ nav li a:hover {
         border: none;
         border-bottom: blue solid;
     }
+    #projects {
+        padding-top: 275px;
+    }
     #me {
         font-size: 60px;
         overflow: hidden;
