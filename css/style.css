@@ -12,6 +12,16 @@ body {
 
 img {
     width: 200px;
+    border-radius: 20%;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: black;
+    padding: 10px;
+    border-radius: 2%;
+    font-size: 17px;
 }
 
 div * {
@@ -67,6 +77,7 @@ h2 {
 
 #me_pic {
     border-radius: 50%;
+    width: 250px;
 }
 
 
@@ -237,36 +248,40 @@ nav li a:hover {
     grid-row: 9 / span 1;
 }
 
-#debug_text {
+#about {
     grid-row: 10 / span 1;
 }
 
-#debug_img {
+#debug_text {
     grid-row: 11 / span 1;
 }
 
-#learn_text {
+#debug_img {
     grid-row: 12 / span 1;
 }
 
-#learn_img {
+#learn_text {
     grid-row: 13 / span 1;
 }
 
-#people_text {
+#learn_img {
     grid-row: 14 / span 1;
 }
 
-#people_img {
+#people_text {
     grid-row: 15 / span 1;
 }
 
-#designs {
+#people_img {
     grid-row: 16 / span 1;
 }
 
-#about {
+#designs {
     grid-row: 17 / span 1;
+}
+
+#mygal {
+    grid-row: 18 / span 1;
 }
 
 #web_img,
@@ -356,7 +371,6 @@ nav li a:hover {
 }
 
 #mygal {
-    grid-row: 4/span 1;
     grid-column: 1/ span 4;
 }
 
@@ -435,17 +449,20 @@ nav li a:hover {
     #research_img {
         grid-row: 6 / span 1;
     }
+    #about {
+        grid-row: 7 / span 1;
+    }
     #debug_text,
     #debug_img {
-        grid-row: 7 / span 1;
+        grid-row: 8 / span 1;
     }
     #learn_text,
     #learn_img {
-        grid-row: 8 / span 1;
+        grid-row: 9 / span 1;
     }
     #people_text,
     #people_img {
-        grid-row: 9 / span 1;
+        grid-row: 10 / span 1;
     }
     img {
         width: 215px;
@@ -494,6 +511,9 @@ nav li a:hover {
     #learn_text p,
     #people_text p {
         text-align: left;
+    }
+    footer {
+        grid-row: 40 / span 1;
     }
 }
 
