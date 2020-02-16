@@ -27,19 +27,19 @@ img {
 #top_button {
     display: none;
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 51px;
+    right: 20px;
     outline: none;
     border: none;
     z-index: 99;
     background-color: rgba(238, 238, 238, 0.91);
     color: white;
     cursor: pointer;
-    border-radius: 50%;
-    font-size: 45px;
+    border-radius: 8%;
+    font-size: 42px;
 }
 
-#top_but:hover {
+#top_button:hover {
     background-color: #4285F5;
 }
 
@@ -565,6 +565,7 @@ nav li a:hover {
     #top_button {
         font-size: 43px;
         right: 54px;
+        bottom: 20px;
     }
 }
 
