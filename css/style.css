@@ -12,7 +12,7 @@ body {
 
 img {
     width: 200px;
-    border-radius: 20%;
+    border-radius: 13%;
 }
 
 .button {
@@ -101,11 +101,17 @@ h2 {
     0% {
         color: #4285F5;
     }
+    25% {
+        color: #EA4435;
+    }
     50% {
         color: #F9BB08;
     }
-    100% {
+    75% {
         color: #32A452;
+    }
+    100% {
+        color: #4285F5;
     }
 }
 
@@ -113,10 +119,13 @@ h2 {
     0% {
         color: #4285F5;
     }
-    33% {
+    25% {
+        color: #EA4435;
+    }
+    50% {
         color: #F9BB08;
     }
-    66% {
+    75% {
         color: #32A452;
     }
     100% {
@@ -126,8 +135,8 @@ h2 {
 
 #aj_h1 {
     color: #4285F5;
-    -webkit-animation: alt_color 20s infinite;
-    animation: alt_color 20s infinite;
+    -webkit-animation: alt_color 30s infinite;
+    animation: alt_color 30s infinite;
     animation-delay: 3s;
 }
 
@@ -280,7 +289,7 @@ a.skip:focus {
 nav {
     grid-row: 2 / span 1;
     grid-column: 2/ span 1;
-    border-left: solid #32A452;
+    border-left: solid #F9BB08;
     margin: 0 auto;
 }
 
