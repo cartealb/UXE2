@@ -87,12 +87,26 @@ h2 {
     letter-spacing: .10em;
     -webkit-animation: typing 2.5s steps(40, end), blink-caret .75s step-end infinite;
     animation: typing 2.5s steps(40, end), blink-caret .75s step-end infinite;
+    width: -webkit-min-content;
+    width: -moz-min-content;
     width: min-content;
 }
 
 #me_pic {
     border-radius: 50%;
     width: 250px;
+}
+
+@-webkit-keyframes alt_color {
+    0% {
+        color: #4285F5;
+    }
+    50% {
+        color: #F9BB08;
+    }
+    100% {
+        color: #32A452;
+    }
 }
 
 @keyframes alt_color {
@@ -108,7 +122,8 @@ h2 {
 }
 
 #aj_h1 {
-    animation: alt_color 40s infinite;
+    -webkit-animation: alt_color 20s infinite;
+    animation: alt_color 20s infinite;
 }
 
 #enth_debug,
@@ -128,6 +143,15 @@ h2 {
 
 #
 /* The typing effect */
+
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
 
 @-webkit-keyframes typing {
     from {
