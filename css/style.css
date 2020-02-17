@@ -113,17 +113,22 @@ h2 {
     0% {
         color: #4285F5;
     }
-    50% {
+    33% {
         color: #F9BB08;
     }
-    100% {
+    66% {
         color: #32A452;
+    }
+    100% {
+        color: #4285F5;
     }
 }
 
 #aj_h1 {
+    color: #4285F5;
     -webkit-animation: alt_color 20s infinite;
     animation: alt_color 20s infinite;
+    animation-delay: 3s;
 }
 
 #enth_debug,
