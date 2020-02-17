@@ -95,9 +95,24 @@ h2 {
     width: 250px;
 }
 
-#enth_debug,
-#web_dev_h2,
+@keyframes alt_color {
+    0% {
+        color: #4285F5;
+    }
+    50% {
+        color: #F9BB08;
+    }
+    100% {
+        color: #32A452;
+    }
+}
+
 #aj_h1 {
+    animation: alt_color 40s infinite;
+}
+
+#enth_debug,
+#web_dev_h2 {
     color: #4285F5
 }
 
