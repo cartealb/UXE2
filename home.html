@@ -215,7 +215,12 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+        AOS.init({
+            disable: function() {
+                var val = window.matchMedia('(prefers-reduced-motion: reduce)');
+                return val.matches;
+            }
+        });
     </script>
 
 </body>

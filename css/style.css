@@ -635,4 +635,8 @@ nav li a:hover {
         animation: none;
         border-right: none;
     }
+    #aj_h1 {
+        -webkit-animation: none;
+        animation: none;
+    }
 }

@@ -1,5 +1,3 @@
-topbutton = document.getElementById('top_button')
-
 window.onscroll = function() {
     ScrollFunction()
 };
