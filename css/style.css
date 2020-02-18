@@ -44,7 +44,7 @@ div * {
 }
 
 footer {
-    grid-row: 18 / span 1;
+    grid-row: 20 / span 1;
     padding-top: 200px;
     grid-column: 1 / span 4;
     padding-top: 200px;
@@ -367,8 +367,12 @@ nav li a:hover {
     grid-row: 17 / span 1;
 }
 
-#mygal {
+#design_text {
     grid-row: 18 / span 1;
+}
+
+#mygal {
+    grid-row: 19 / span 1;
 }
 
 #web_img,
@@ -409,7 +413,8 @@ nav li a:hover {
 #research_text,
 #debug_text,
 #learn_text,
-#people_text {
+#people_text,
+#design_text {
     text-align: center;
 }
 
@@ -475,7 +480,8 @@ nav li a:hover {
 #research_text,
 #debug_text,
 #learn_text,
-#people_text {
+#people_text,
+#design_text {
     grid-column: 2 / span 1;
     padding-top: 65px;
 }
@@ -499,6 +505,7 @@ nav li a:hover {
     #people_text,
     #people_img,
     #about,
+    #design_text,
     #designs {
         grid-column: 2 / span 2;
     }
@@ -518,6 +525,12 @@ nav li a:hover {
         grid-column: 3 / span 1;
         text-align: left;
         padding-top: 100px;
+    }
+    #design_text {
+        grid-column: 2 / span 2;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
     #web_img,
     #ux_img,
