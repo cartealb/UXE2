@@ -137,6 +137,7 @@ h2 {
     color: #4285F5;
     -webkit-animation: alt_color 30s infinite;
     animation: alt_color 30s infinite;
+    -webkit-animation-delay: 3s;
     animation-delay: 3s;
 }
 
