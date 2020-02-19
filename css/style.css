@@ -637,7 +637,7 @@ nav li a:hover {
     }
 }
 
-@media screen and (min-width:1025px) {
+@media screen and (min-width:1680px) {
     #projects {
         padding-top: 400px;
     }

@@ -18,3 +18,13 @@ function go_to_topFunction() {
     document.body.scrollTop = 0
     document.documentElement.scrollTop = 0;
 }
+
+// https://codepen.io/nickcil/pen/sfutl
+$(window).scroll(function() {
+    var val = window.matchMedia('(prefers-reduced-motion: reduce)');
+    if (!(val.matches)) {
+        $("#intro").css("opacity", 1 - $(window).scrollTop() / 450);
+        $("#nav_bar").css("opacity", 1 - $(window).scrollTop() / 450);
+    }
+
+});
